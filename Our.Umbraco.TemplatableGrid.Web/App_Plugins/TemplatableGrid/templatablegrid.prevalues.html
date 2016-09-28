@@ -2,7 +2,7 @@
     <div ng-show="unsupported">Template not supported in document type editor, please use the data type editor.</div>
     <div ng-show="!unsupported">
         <button class="btn btn-small" ng-click="reset()"
-                style="z-index: 999;">
+                style="position: relative; top: 50px; left: -180px;">
             <i class="icon-delete red"></i>Reset template
         </button>
         <div ng-include="gridPath"></div>
