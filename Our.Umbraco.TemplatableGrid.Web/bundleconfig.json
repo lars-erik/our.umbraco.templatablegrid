@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "App_Plugins/TemplatableGrid/templatablegrid.js",
+    "inputFiles": [
+      "App_Plugins/TemplatableGrid/templatable.grid.controller.js",
+      "App_Plugins/TemplatableGrid/templatable.grid.prevalues.controller.js"
+    ]
+  }
+]
