@@ -6,13 +6,18 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/lars-erik/our.umbraco.templatablegrid/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/lars-erik/our.umbraco.templatablegrid</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2016</copyright>
-    <tags>Tag1 Tag2</tags>
+    <copyright>Copyright 2016 Lars-Erik Aabech</copyright>
+    <tags>Umbraco Grid</tags>
   </metadata>
+  <files>
+    <file src="..\Our.Umbraco.TemplatableGrid.Web\App_Plugins\TemplatableGrid\package.manifest" target="Content\App_Plugins\TemplatableGrid"/>
+    <file src="..\Our.Umbraco.TemplatableGrid.Web\App_Plugins\TemplatableGrid\*.html" target="Content\App_Plugins\TemplatableGrid"/>
+    <file src="..\Our.Umbraco.TemplatableGrid.Web\App_Plugins\TemplatableGrid\templatablegrid.js" target="Content\App_Plugins\TemplatableGrid"/>
+    <file src="..\license.txt" target="license.txt"/>
+    <file src="..\readme.md" target="readme.md"/>
+  </files>
 </package>
